@@ -13,5 +13,7 @@ jobs:
     permissions:
       pages: write
       id-token: write
-    uses: binki/binki-action-publish-create-react-app-to-pages/.github/workflows/workflow.yml@1
+    uses: binki/binki-action-publish-create-react-app-to-pages/.github/workflows/workflow.yml@2
 ```
+
+Be sure you define a valid `test` script in your `package.json`.
